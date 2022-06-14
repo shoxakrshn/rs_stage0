@@ -1,0 +1,62 @@
+* {
+	font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+	/*border: 1px solid red;*/
+}
+
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+
+
+h2 {
+    padding-bottom: 15px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.cvphoto {
+    width: 240px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+section {
+    padding-bottom: 10px;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: px;
+}
+
+.github > img {
+    width: 70px;
+
+}
+
+.year {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.flex_footer {
+    margin: 25px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
